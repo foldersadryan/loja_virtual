@@ -20,7 +20,10 @@ main {
 
 #frase-efeito h2 {
     font-size: 44px;
-    color: rgb(204, 255, 121);
+    color: #d2f20c;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 #frase-efeito {
@@ -34,6 +37,7 @@ main {
 #frase-efeito p {
     width: 450px;
     margin-top: 20px;
+    letter-spacing: 0.2rem;
 }
 
 #frase-efeito button {
