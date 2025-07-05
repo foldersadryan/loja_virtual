@@ -43,14 +43,20 @@ main {
 #frase-efeito button {
     margin-top: 70px;
     margin-left: 120px;
-    width: 120px;
-    height: 40px;
-    border-radius: 15px;
-    border: none;
-    background-color: rgb(192, 71, 58);
+    background-color: #f86f61;
     color: white;
-    font-size: 16px;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 1.5px;
+    padding: 0.9rem 2.8rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    user-select: none;
+    box-shadow: 0 8px 16px rgba(248,111,97,0.5);
+    align-self: flex-start;
 }
 
 #frase-efeito button:hover {
