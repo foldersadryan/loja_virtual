@@ -82,12 +82,12 @@ header #login-singin button {
     border-radius: 15px;
     font-weight: 600;
     font-weight: bold;
-    color: rgb(34, 32, 32);
+    color: rgb(8, 8, 8);
 }
 
 header #login-singin button:hover {
-    background-color: #b1c913;
-    color: rgb(68, 62, 62);
+    background-color: #95aa0c;
+    color: rgb(9, 9, 9);
     cursor: pointer;
     font-weight: bold;
     transition: 0.2s;
