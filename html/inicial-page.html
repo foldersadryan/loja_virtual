@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/page-one.css">
     <link rel="stylesheet" href="../css/page-two.css">
@@ -11,7 +12,9 @@
 </head>
 <body>
     <header>
-            <h1>HARD <span>skateshop</span></h1>
+            <div id="logo">
+                <h1>HARD <span>skateshop</span></h1>
+            </div>
 
             <nav id="secoes">
                 <h2 id="inicial-page">Página Inicial</h2>
@@ -21,10 +24,10 @@
                 <h2 id="acessorios">Acessórios</h2> 
             </nav>
 
-            <section id="login-singin">
-                <button>Fazer login</button>
-                <button>Criar conta</button>
-            </section>  
+            <div id="login-singin">
+                <i class="fa-solid fa-cart-shopping fa-1x"></i>
+                <i class="fa-solid fa-user fa-1x"></i>
+            </div>  
     </header>
 
     <main>
@@ -46,8 +49,8 @@
             </section>
         </div>
 
-        <div id="background-green"></div>
-        <img id="manequins" src="../img/Flux_Dev_A_vibrant_and_trendy_landing_page_for_a_generic_stree_0.jpg" alt="estilos">    
+        <!--<div id="background-green"></div>
+        <img id="manequins" src="../img/Flux_Dev_A_vibrant_and_trendy_landing_page_for_a_generic_stree_0.jpg" alt="estilos">  --> 
 
         <div id="promocoes">
             <section id="produto2">
@@ -70,9 +73,6 @@
             <h4 id="endereco">AV.Brasil, 1014 - Cascavel - Centro</h4>
         </div>
     </main>
-
-    
-
     
 </body>
 </html>

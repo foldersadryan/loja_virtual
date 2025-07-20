@@ -14,33 +14,31 @@
 }
 
 header {
+    background: rgb(32, 32, 30);
     display: flex;
-    justify-content: space-between;
-    background-color: rgb(32, 32, 30);
+    display: wrap;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
-    height: 80px;
+    height: 10%;
     position: fixed;
     z-index: 2;
 }
 
-header h1 {
+#logo h1 {
     font-family: 'Permanent Marker', cursive;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
-    margin: 12px;
-    margin-top: 17px;
-    margin-left: 50px;
-    padding: 12px;
-    justify-content: center;
     color: #d2f20c;    
 }
-header h1:hover {
+
+#logo h1:hover {
     cursor: pointer;
-    color: #d5e280;
+    color: #ffffff;
     transition: 0.2s;
 }    
 
-header h1 span {
+header #logo h1 span {
     font-family: 'Permanent Marker', cursive;
     font-size: 1.5rem;
     font-weight: 700;
@@ -48,15 +46,12 @@ header h1 span {
 
 header #secoes {
     display: flex;
-    justify-content: space-between;
-    font-size: 9px;
-    margin: 20px;
-    padding: 10px;
+    font-size: 0.5rem;
     font-weight: 100;
 }
 
 header #secoes h2 {
-    padding: 26px;
+    padding: 2rem;
     color: rgb(138, 138, 138);
 }
 header #secoes h2:hover {
@@ -66,34 +61,64 @@ header #secoes h2:hover {
 }
 
 header #login-singin {
-    margin-top: 30px;
-    margin-right: 55px;
+    display: flex;
+    justify-content: space-between;
 }
 
-header #login-singin button {
-    margin: 12px;
-    padding: 10px;
-    width: 80px;
-    height: 30px;
-    font-size: 11px;
-    font-weight: 700;
+header #login-singin i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    margin: 2rem;
     border: none;
-    background-color: #d2f20c;
     border-radius: 15px;
-    font-weight: 600;
-    font-weight: bold;
-    color: rgb(8, 8, 8);
+    color: #d2f20c
 }
 
-header #login-singin button:hover {
-    background-color: #95aa0c;
-    color: rgb(9, 9, 9);
+header #login-singin i:hover {
+    color: #ffffff;
     cursor: pointer;
-    font-weight: bold;
     transition: 0.2s;
 }
 
-@media (max-width: 768px) {
-    
+@media (min-width:2560px) {
+    header #logo h1 {
+        font-size: 3rem;
+    }
+
+    header #logo h1 span {
+        font-size: 2.2rem;
+    }
+
+    header #secoes {
+        font-size: 0.7rem;
+    }
+
+    header #login-singin i {
+        font-size: 2rem;
+    }
 }
 
+@media (max-width:425px) {
+
+    header {
+        justify-content: center;
+    }
+    header #logo h1 {
+        font-size: 5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header #logo h1 span {
+        font-size: 2.5rem;
+    }
+    header #secoes {
+        display: none;
+    }
+
+    header #login-singin {
+        display: none;
+    }
+}
