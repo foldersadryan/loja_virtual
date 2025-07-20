@@ -100,6 +100,23 @@ header #login-singin i:hover {
     }
 }
 
+@media (max-width: 1100px) {
+
+    header {
+        justify-content: space-around;
+    }
+
+    header #secoes {
+        display: none;
+    }
+
+}
+@media (min-width: 1100px) {
+    header #login-singin #sections {
+        display: none;
+    }
+}
+
 @media (max-width:425px) {
 
     header {
