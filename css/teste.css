@@ -1,0 +1,64 @@
+
+
+#page-one #promocoes {
+    display: flex;
+}
+#destaque {
+    display: block;
+    font-family: Bebas Neue, sans-serif;
+}
+
+#manequins {
+    margin: 60px;
+    justify-content: space-between;
+    z-index: 1;
+    width: 650px;
+    height: 350px;
+    border-radius: 50px;
+    right: 0px;
+    position: absolute;
+}
+
+
+#produto1 {
+    display: flex;
+    position: relative;
+    top: 140px;
+    display: block;
+    align-items: center;  
+    text-align: center; 
+}
+
+#produto1 h3 {
+    font-size: 24px;
+}
+#produto1 img {
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+}
+
+#produto1 label {
+    display: block;
+    font-weight: bold;
+}
+#promocoes {
+    display: flex;
+    position: relative;
+    width: 655px;
+    height: 300px; 
+    top: 550px;
+    left: 10px;
+}
+
+#produto2 {
+    margin: 20px;
+    position: relative;
+    top: 100px;
+}
+
+#produto2 label {
+    margin-top: 40px;
+    color: rgb(254, 254, 254);
+}
+

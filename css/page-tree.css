@@ -4,7 +4,20 @@
   font-style: normal;
 }
 
-#footer {
+footer {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: initial;
+    background-color: rgb(21, 21, 20);
+}
+
+footer h4 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+/*#footer {
     position: absolute;
     display: flex;
     bottom: 10px;

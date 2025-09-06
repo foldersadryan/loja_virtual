@@ -14,7 +14,7 @@
 }
 
 header {
-    background: rgb(32, 32, 30);
+    background-color: rgb(21, 21, 20);
     display: flex;
     display: wrap;
     justify-content: space-around;
